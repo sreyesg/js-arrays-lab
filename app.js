@@ -158,7 +158,7 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 const odds = [];
 
 nums.map((number) => {
-   if(number %2 !== 0){
+   if(number %3 === 1){
       odds.push(number)
    }
 });
