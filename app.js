@@ -206,19 +206,33 @@ nums.map((number) => {
 //    }else if()
 // })
 
-console.log('Exercise 12 Results:');
-console.log(nums);
-console.log('  fizz:', fizz);
-console.log('  buzz:', buzz);
-console.log('  fizzbuzz:', fizzbuzz);
+// console.log('Exercise 12 Results:');
+// console.log(nums);
+// console.log('  fizz:', fizz);
+// console.log('  buzz:', buzz);
+// console.log('  fizzbuzz:', fizzbuzz);
 
 
-// const oneDArray = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+/*
+Exercise 13: Retrieve the Last Array
 
-// const oneDArray = [
-//    1, // 0 index
-//    2, // 1 index
-//    3, // 2 index
-//    // and so on
-//  ]
+1) Assign the last nested array in the `numArrays` below to a variable named
+   `numList`. As you do this, also fulfill these goals:
+
+   - Assume you don't know how many nested arrays `numArrays` contains.
+   - Do not alter the original `numArrays` array.
+
+Complete Exercise 13 in the space below:
+*/
+
+const numArrays = [
+	[100, 5, 23],
+	[15, 21, 72, 9],
+	[45, 66],
+	[7, 81, 90]
+];
+const lastArray = numArrays.length -1
+const numList = numArrays[lastArray]
+
+console.log('Exercise 13 result:', numList);
  
